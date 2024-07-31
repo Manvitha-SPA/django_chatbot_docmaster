@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+  <head>
+    <title>Login Page</title>
+    <link rel="stylesheet" href="{% static 'css/login.css' %}" />
+  </head>
+  <body>
+    <div id="login-form">
+      <h2>Login Form</h2>
+      <label>User Name:<input id="user_name" type="text" /><br /></label>
+      <button id="submit-btn" onclick="sendLoginData()">Submit</button>
+      <script id="data" type="application/json">
+        {{ login_json|safe }}
+      </script>
+      <script src="{% static 'js/login_script.js' %}"></script>
+    </div>
+  </body>
+</html>

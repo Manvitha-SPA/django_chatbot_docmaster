@@ -1,0 +1,22 @@
+#login-form{
+    border:1px solid black;
+    width: 50vh;
+    height: 20vh;
+}
+div{
+    margin-top: 2vh;
+    margin-left: 50vh;
+}
+h2{
+    text-align: center;
+}
+#user_name{
+    margin-left: 5vh;
+}
+label{
+margin-left: 2vh;
+}
+button{
+    margin-left: 20vh;
+    margin-top: 2vh;
+}
